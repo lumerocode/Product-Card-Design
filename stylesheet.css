@@ -1,0 +1,134 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: verdana;
+   transition: all .3s linear; 
+}
+
+body {
+    overflow: hidden;
+    min-height: 100vh;
+    background: linear-gradient(45deg, white 69%, coral 69%);
+}
+
+.container {
+    height: 550px;
+    width: 1000px;
+    margin: 35px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #595959;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-image {
+    float: left;
+    margin-top: 50px;
+}
+
+.main-image img {
+    width: 25.5em;
+} 
+
+.left-content {
+    float: left;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
+.left-content h2{
+    font-size: 40px;
+    color: #333;
+    line-height: 50px;
+}
+
+.right-content {
+    float: right;
+    line-height: 25px;
+    margin-top: 65px;
+    text-align: justify;
+    color: #595959;
+}
+
+.right-content h2 {
+    text-indent: 20px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.right-content p {
+    padding: 20px
+}
+
+.right-content p a {
+    text-decoration: none;
+    color: orange;
+    padding: 5px;
+}
+
+.right-content p a:hover {
+    color: #333;
+}
+
+.right-content strong {
+    margin-left: 20px;
+}
+
+.right-content select {
+    height: 30px;
+    width: 40px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text-color {
+    margin: 30px 0 0 20px;
+    color: coral;
+    font-size: 22px;
+}
+
+.small-images {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    height: 90px;
+    width: calc(600px - 5px);
+    overflow: hidden;
+}
+
+.small-images > img {
+    height: 100%;
+    width: 95px;
+    opacity: .5;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.small-images > .active {
+    opacity: 1;
+}
+
+.right-content button {
+    margin: 30px 0 0 410px;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: coral;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 0 5px #333;;
+    cursor: pointer;
+}
+
+.right-content button:hover {
+    opacity: .7;
+}
